@@ -1,6 +1,7 @@
 package com.cabinvoicegenerator;
 
 public class InvoiceSummary {
+
 	private int noOfRides;
 	private double totalFare;
 	private double avgFare;
