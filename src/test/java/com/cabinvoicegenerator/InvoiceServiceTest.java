@@ -39,7 +39,7 @@ public class InvoiceServiceTest {
 
 	@Test
 	public void givenUserIdReturnInvoiceSummary() {
-		String userId = "arijit";
+		String userId = "Ashutosh";
 		RideRepository rideRepository = new RideRepository();
 		Ride[] rides = { new Ride(2.0, 5, Ride.RideType.NORMAL), new Ride(0.1, 1, Ride.RideType.PREMIUM) };
 		rideRepository.addUserRide(userId, rides);
